@@ -6,3 +6,4 @@ public interface ExchangeValueRepository extends JpaRepository<ExchangeValue, Lo
 	
 	ExchangeValue findByFromAndTo(String from, String to);
 }
+	
